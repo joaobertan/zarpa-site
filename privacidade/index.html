@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de privacidade · Zarpa</title>
+  <meta name="description" content="Política de privacidade e suporte do aplicativo Zarpa, planejador de viagens para iPhone.">
+  <style>
+    :root {
+      --cream: #FFF8F2;
+      --navy: #14213D;
+      --coral: #FF5A4E;
+      --coral-deep: #C2402F;
+      --gray: #5C6270;
+      --sand: #E3D5C8;
+      --white: #FFFFFF;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--cream);
+      color: var(--navy);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-size: 17px;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+    header {
+      background: var(--navy);
+      color: var(--white);
+      padding: 40px 20px 32px;
+    }
+    .wrap { max-width: 720px; margin: 0 auto; }
+    .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      text-decoration: none;
+      color: var(--white);
+    }
+    .brand .mark {
+      width: 40px; height: 40px; border-radius: 12px;
+      background: var(--coral);
+      display: inline-flex; align-items: center; justify-content: center;
+      font-size: 22px;
+    }
+    .brand .name { font-size: 24px; font-weight: 700; letter-spacing: -0.02em; }
+    header h1 { font-size: 32px; margin: 24px 0 8px; letter-spacing: -0.02em; }
+    header p { margin: 0; opacity: 0.8; }
+    main { padding: 32px 20px 64px; }
+    nav.toc {
+      background: var(--white);
+      border-radius: 16px;
+      padding: 16px 20px;
+      margin-bottom: 32px;
+      box-shadow: 0 2px 12px rgba(20, 33, 61, 0.06);
+    }
+    nav.toc ol { margin: 8px 0 0; padding-left: 20px; columns: 2; column-gap: 24px; }
+    nav.toc li { break-inside: avoid; margin-bottom: 4px; }
+    h2 { font-size: 22px; margin: 40px 0 12px; letter-spacing: -0.01em; }
+    h2:first-of-type { margin-top: 0; }
+    a { color: var(--coral-deep); }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--white);
+      border-radius: 12px;
+      overflow: hidden;
+      font-size: 15px;
+      margin: 16px 0;
+    }
+    th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--sand); vertical-align: top; }
+    th { background: #FFF1EC; color: var(--coral-deep); font-weight: 600; }
+    tr:last-child td { border-bottom: 0; }
+    ul, ol { padding-left: 22px; }
+    li { margin-bottom: 6px; }
+    .note {
+      background: #FFF1EC;
+      border-left: 4px solid var(--coral);
+      padding: 12px 16px;
+      border-radius: 0 12px 12px 0;
+      margin: 16px 0;
+    }
+    .contact {
+      background: var(--white);
+      border-radius: 16px;
+      padding: 20px 24px;
+      box-shadow: 0 2px 12px rgba(20, 33, 61, 0.06);
+    }
+    footer { color: var(--gray); font-size: 14px; text-align: center; padding: 0 20px 40px; }
+    @media (max-width: 560px) {
+      nav.toc ol { columns: 1; }
+      body { font-size: 16px; }
+      header h1 { font-size: 26px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <a class="brand" href="/">
+        <span class="mark" aria-hidden="true">✈︎</span>
+        <span class="name">Zarpa</span>
+      </a>
+      <h1>Política de privacidade</h1>
+      <p>Vigente a partir de 2 de novembro de 2026.</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <nav class="toc" aria-label="Sumário">
+      <strong>Nesta página</strong>
+      <ol>
+        <li><a href="#quem">Quem é responsável</a></li>
+        <li><a href="#dados">Quais dados o Zarpa trata</a></li>
+        <li><a href="#finalidade">Para que usamos</a></li>
+        <li><a href="#terceiros">Com quem compartilhamos</a></li>
+        <li><a href="#onde">Onde os dados ficam</a></li>
+        <li><a href="#retencao">Por quanto tempo</a></li>
+        <li><a href="#exclusao">Como excluir sua conta</a></li>
+        <li><a href="#direitos">Seus direitos</a></li>
+        <li><a href="#seguranca">Segurança</a></li>
+        <li><a href="#criancas">Crianças e adolescentes</a></li>
+        <li><a href="#mudancas">Mudanças nesta política</a></li>
+        <li><a href="#contato">Contato e suporte</a></li>
+      </ol>
+    </nav>
+
+    <p>
+      O Zarpa é um aplicativo para iPhone que ajuda você a planejar, viver e reviver suas viagens:
+      roteiro por dia, hospedagens, transportes, orçamento, gastos e lista de bagagem. Esta página
+      explica, em linguagem direta, quais dados pessoais o aplicativo trata, por quê, e o que você
+      pode fazer a respeito. Ela foi escrita de acordo com a Lei Geral de Proteção de Dados
+      (Lei nº 13.709/2018, LGPD).
+    </p>
+
+    <h2 id="quem">1. Quem é responsável</h2>
+    <p>
+      O Zarpa é desenvolvido e mantido por João Bertan, pessoa física, que atua como controlador dos
+      dados pessoais tratados pelo aplicativo. Para qualquer assunto relacionado a esta política,
+      escreva para <a href="mailto:dev@joaobertan.com.br">dev@joaobertan.com.br</a>.
+    </p>
+
+    <h2 id="dados">2. Quais dados o Zarpa trata</h2>
+    <p>O aplicativo só funciona com uma conta, e tudo que você cria fica associado a ela.</p>
+    <table>
+      <thead>
+        <tr><th>Dado</th><th>De onde vem</th><th>Para quê</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Nome, e-mail e foto de perfil</td>
+          <td>Da sua conta Google, quando você entra com o Google</td>
+          <td>Identificar sua conta e mostrar quem está conectado</td>
+        </tr>
+        <tr>
+          <td>Nome e e-mail</td>
+          <td>Da sua conta Apple, quando você entra com a Apple. Se usar "Ocultar meu e-mail", recebemos um endereço de encaminhamento da Apple</td>
+          <td>Identificar sua conta</td>
+        </tr>
+        <tr>
+          <td>Identificador do provedor de login</td>
+          <td>Código único que o Google ou a Apple atribui a você neste aplicativo</td>
+          <td>Reconhecer sua conta nos próximos logins; vincular Google e Apple à mesma conta quando o e-mail é o mesmo</td>
+        </tr>
+        <tr>
+          <td>Credencial de revogação da Apple</td>
+          <td>Token técnico que a Apple fornece no login</td>
+          <td>Usado exclusivamente para desfazer o vínculo com a Apple quando você exclui sua conta</td>
+        </tr>
+        <tr>
+          <td>Conteúdo das suas viagens</td>
+          <td>Criado por você no aplicativo</td>
+          <td>Nome, datas e destinos da viagem; atividades e refeições do roteiro; hospedagens; transportes; custos previstos; gastos; lista de bagagem e conferências de mala</td>
+        </tr>
+        <tr>
+          <td>Termos de busca de lugares</td>
+          <td>Digitados por você ao procurar um destino ou um local</td>
+          <td>Encontrar o lugar no mapa; a busca passa pelo nosso servidor e é enviada à Apple Maps</td>
+        </tr>
+        <tr>
+          <td>Registros técnicos do servidor</td>
+          <td>Gerados automaticamente a cada acesso</td>
+          <td>Endereço IP, data e hora, rota acessada e código de resposta, para diagnosticar falhas e proteger o serviço</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      O Zarpa <strong>não</strong> lê a localização do seu aparelho: as coordenadas que guardamos são
+      as dos lugares que você escolhe. Não acessamos contatos, fotos, câmera ou microfone. Não há
+      anúncios, ferramentas de analytics nem rastreamento entre aplicativos.
+    </p>
+
+    <h2 id="finalidade">3. Para que usamos</h2>
+    <p>Usamos os dados exclusivamente para o funcionamento do aplicativo:</p>
+    <ul>
+      <li>manter sua conta e sua sessão conectada no aparelho;</li>
+      <li>guardar e sincronizar suas viagens entre o aparelho e o servidor;</li>
+      <li>buscar lugares e fusos horários dos destinos;</li>
+      <li>diagnosticar erros e proteger o serviço contra abuso.</li>
+    </ul>
+    <p>
+      A base legal é a execução do serviço que você solicitou (art. 7º, V, da LGPD) e, para os
+      registros técnicos, o legítimo interesse em manter o serviço seguro e funcionando
+      (art. 7º, IX). Não usamos seus dados para marketing, perfilamento ou venda a terceiros.
+    </p>
+
+    <h2 id="terceiros">4. Com quem compartilhamos</h2>
+    <p>Somente com os serviços necessários para o aplicativo funcionar:</p>
+    <table>
+      <thead>
+        <tr><th>Serviço</th><th>O que recebe</th><th>Por quê</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Google Sign-In (Google LLC)</td>
+          <td>O fato de você entrar no Zarpa com sua conta Google</td>
+          <td>Autenticar você. Sujeito à <a href="https://policies.google.com/privacy" rel="noopener">política de privacidade do Google</a></td>
+        </tr>
+        <tr>
+          <td>Sign in with Apple (Apple Inc.)</td>
+          <td>O fato de você entrar no Zarpa com seu ID Apple</td>
+          <td>Autenticar você. Sujeito à <a href="https://www.apple.com/legal/privacy/" rel="noopener">política de privacidade da Apple</a></td>
+        </tr>
+        <tr>
+          <td>Apple Maps Server API (Apple Inc.)</td>
+          <td>Os termos que você digita ao buscar um lugar</td>
+          <td>Encontrar destinos e locais. A busca é feita pelo nosso servidor, sem identificar você</td>
+        </tr>
+        <tr>
+          <td>Amazon Web Services (AWS)</td>
+          <td>Todos os dados acima, armazenados nos servidores do Zarpa</td>
+          <td>Hospedagem do servidor e do banco de dados</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>Nenhum desses serviços recebe seus dados para fins próprios de publicidade por parte do Zarpa.</p>
+
+    <h2 id="onde">5. Onde os dados ficam</h2>
+    <p>
+      O servidor e o banco de dados do Zarpa ficam na Amazon Web Services, na região
+      <strong>Leste dos Estados Unidos (Virgínia do Norte)</strong>. Isso é uma transferência
+      internacional de dados nos termos do art. 33 da LGPD, feita para um provedor que adota
+      cláusulas e padrões de proteção reconhecidos. No seu aparelho, o aplicativo guarda apenas o
+      token da sua sessão, no Keychain do iOS, e uma cópia temporária das viagens para abrir
+      mais rápido.
+    </p>
+
+    <h2 id="retencao">6. Por quanto tempo</h2>
+    <ul>
+      <li><strong>Conta e viagens:</strong> enquanto sua conta existir. Ao excluir a conta, tudo é apagado imediatamente do banco de dados.</li>
+      <li><strong>Sessões:</strong> uma sessão vence depois de um ano sem uso ou quando você sai da conta.</li>
+      <li><strong>Registros técnicos do servidor:</strong> por até 30 dias, e depois são descartados.</li>
+    </ul>
+    <p>Não mantemos cópias de segurança dos seus dados depois da exclusão da conta.</p>
+
+    <h2 id="exclusao">7. Como excluir sua conta</h2>
+    <p>Você pode apagar sua conta e todos os dados dela a qualquer momento, pelo próprio aplicativo:</p>
+    <ol>
+      <li>Na tela <strong>Minhas viagens</strong>, toque no ícone de perfil no canto superior direito.</li>
+      <li>Toque em <strong>Excluir conta</strong> e confirme.</li>
+    </ol>
+    <p>
+      A exclusão apaga sua conta, suas viagens, gastos, listas de bagagem e sessões, e desfaz o
+      vínculo do Zarpa com seu ID Apple, se você entrou com a Apple. Não dá para desfazer. Se não
+      conseguir fazer pelo aplicativo, escreva para
+      <a href="mailto:dev@joaobertan.com.br?subject=Exclus%C3%A3o%20de%20conta%20Zarpa">dev@joaobertan.com.br</a>
+      a partir do e-mail cadastrado e faremos a exclusão em até 15 dias.
+    </p>
+    <div class="note">
+      Sair da conta não apaga nada: suas viagens continuam guardadas e voltam no próximo login.
+    </div>
+
+    <h2 id="direitos">8. Seus direitos</h2>
+    <p>Pela LGPD (art. 18), você pode, a qualquer momento e sem custo, pedir:</p>
+    <ul>
+      <li>confirmação de que tratamos seus dados e acesso a eles;</li>
+      <li>correção de dados incompletos, inexatos ou desatualizados;</li>
+      <li>anonimização, bloqueio ou eliminação de dados desnecessários ou tratados em desconformidade com a lei;</li>
+      <li>portabilidade dos seus dados em formato legível;</li>
+      <li>informação sobre com quem compartilhamos seus dados;</li>
+      <li>eliminação dos dados tratados com base no seu consentimento;</li>
+      <li>revogação do consentimento, quando ele for a base do tratamento.</li>
+    </ul>
+    <p>
+      Para exercer qualquer um deles, escreva para
+      <a href="mailto:dev@joaobertan.com.br">dev@joaobertan.com.br</a> a partir do e-mail
+      cadastrado. Respondemos em até 15 dias. Você também pode apresentar uma reclamação à
+      Autoridade Nacional de Proteção de Dados (ANPD).
+    </p>
+
+    <h2 id="seguranca">9. Segurança</h2>
+    <p>
+      A comunicação entre o aplicativo e o servidor é criptografada (HTTPS). Não guardamos senhas:
+      o login é feito pelo Google ou pela Apple. O token da sua sessão fica no Keychain do iOS e,
+      no servidor, só uma versão irreversível (hash) dele é armazenada. O acesso ao servidor e ao
+      banco de dados é restrito ao responsável pelo aplicativo.
+    </p>
+
+    <h2 id="criancas">10. Crianças e adolescentes</h2>
+    <p>
+      O Zarpa não é destinado a menores de 13 anos e não coletamos intencionalmente dados dessa
+      faixa etária. Se você acredita que uma criança criou uma conta, escreva para
+      <a href="mailto:dev@joaobertan.com.br">dev@joaobertan.com.br</a> e a conta será apagada.
+    </p>
+
+    <h2 id="mudancas">11. Mudanças nesta política</h2>
+    <p>
+      Se o aplicativo passar a tratar dados de outra forma, por exemplo com uma ferramenta de
+      diagnóstico de falhas, esta página será atualizada, a data de vigência no topo mudará e a
+      alteração será informada dentro do aplicativo antes de valer.
+    </p>
+
+    <h2 id="contato">12. Contato e suporte</h2>
+    <div class="contact">
+      <p>
+        Dúvidas, problemas com o aplicativo, sugestões ou pedidos sobre seus dados:
+        <a href="mailto:dev@joaobertan.com.br">dev@joaobertan.com.br</a>.
+      </p>
+      <p style="margin-bottom:0">
+        Responsável: João Bertan · Brasil.
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    © 2026 João Bertan · Zarpa
+  </footer>
+</body>
+</html>
